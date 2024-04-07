@@ -1,33 +1,58 @@
-# README #
+# Console App Of The Wheather
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A simple console App to get the weather from a specific city by geo localization with different API's
 
-### What is this repository for? ###
+## Description
 
-* Quick summary
-    * A simple console App to get the weather from a specific city by geo localization with diferents API's
-* Version: 1.0
-* [Author](https://www.linkedin.com/in/felipenavaslederhos)
+A simple console App to get the weather from a specific city by geo localization with different API's
 
-### How do I get set up? ###
+## Getting Started
 
-* Summary of set up
-    * npm install
-* How to run the app?
-    * node app | npm start
-* Dependencies
-    *     "axios": "^0.21.1",
-    *     "colors": "^1.4.0",
-    *     "dotenv": "^8.2.0",
-    *     "inquirer": "^7.3.3"
+### Dependencies
 
-### Contribution guidelines ###
+- `npm`
+- `node`
 
-* Writing tests
-* Code review
-* Other guidelines
+### Installing
 
-### Who do I talk to? ###
+- Clone the repository and install dependencies:
 
-* Repo owner or admin
-* Other community or team contact
+```
+git clone https://github.com/Felipe-Navas/console-app-of-the-wheather.git && cd console-app-of-the-wheather && npm install
+```
+
+### Executing program
+
+```
+npm start
+```
+
+Preview of the principal menu:
+
+<img width="350" src="assets/MenuPreview.png" alt="Preview of the principal menu" />
+
+Preview of history:
+
+<img width="350" src="assets/HistoryPreview.png" alt="Preview of history" />
+
+### Running tests
+
+```
+npm test
+```
+
+## Authors
+
+- [Felipe Navas](https://www.linkedin.com/in/felipenavaslederhos) - [Email](mailto:felipenavas.itec@gmail.com?subject=[GitHub]%20console-app-of-the-wheather)
+
+## Contributing
+
+1. Fork it (<https://github.com/Felipe-Navas/console-app-of-the-wheather/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the [MIT License] - see the LICENSE file for details

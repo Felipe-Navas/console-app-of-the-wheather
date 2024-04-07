@@ -1,18 +1,26 @@
 {
-  "name": "05-clima-app",
+  "name": "console-app-of-the-wheather",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple console App to get the weather from a specific city by geo localization with different API's",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Felipe Navas",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "inquirer": "^7.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/console-app-of-the-wheather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/console-app-of-the-wheather/issues"
+  },
+  "homepage": "https://github.com/Felipe-Navas/console-app-of-the-wheather#readme"
 }
